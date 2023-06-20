@@ -1,0 +1,77 @@
+
+body{
+    width: 475px;
+    height:450px;
+}
+.profile-section .profile-container {
+    width: 100%;
+    display: flex;
+    max-width: 450px;
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.profile-section .profile-container .profile-name{
+   
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 20px;
+    color:#6B5B95;
+}
+.waiting-loader{
+    padding:100px;
+    text-align: center;
+}
+.profile-section .profile-container img{
+    border-radius: 50%;
+    width: 18%;
+    font-size: 25px;
+    padding-top: 20px;
+    height: 18%;
+   
+}
+
+.analytical-card-section{
+    width: 100%;
+    margin-top: 30px;
+    display:flex;
+    border-radius: 10px;
+    max-width: 450px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 15px 10px 10px;
+    row-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.analytical-card{
+    margin: 1px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    min-width: 30%;
+    max-width: 40%;
+    padding: 20px;
+    row-gap: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.analytical-card .card-title{
+    font-size: 12px;
+    color:#6B5B95;
+    font-weight: bold;
+}
+.analytical-card .card-value{
+}
+
+.msg_box{
+    font-size: 25px;
+    padding-top: 150px;
+    font-weight: bold;
+    text-align: center;
+}

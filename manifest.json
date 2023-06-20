@@ -1,0 +1,12 @@
+{
+    "name": "Instagram analytical tool",
+    "version": "1.0.0",
+    "description": "Tools that generate insights for instagram",
+    "manifest_version": 3,
+    "author": "Sahil nagpal",
+    "action":{
+        "default_popup":"index.html",
+      "default_title": "Instagram analytical tool"
+  },
+  "permissions": ["scripting","tabs","storage"]
+}
